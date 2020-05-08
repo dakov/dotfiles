@@ -34,5 +34,5 @@
 # Better option is to install gnome-tweak and set custom scale factor
 # 
 # set terminator as default terminal
-gsettings set org.gnome.desktop.default-applications.terminal exec 'terminator'
+#gsettings set org.gnome.desktop.default-applications.terminal exec 'terminator'
 
