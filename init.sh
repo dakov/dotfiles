@@ -1,3 +1,4 @@
+set -ex;
 apt update
 apt install zsh git vim
 
