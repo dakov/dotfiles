@@ -29,3 +29,19 @@ chsh -s $(which zsh)
 apt install terminator
 gsettings set org.gnome.desktop.default-applications.terminal exec 'terminator'
 
+
+# --- Tertiary stuff
+touch ~/Templates/Empy\ Document
+
+# TODO: platform dependent (mostly), install manually for now
+# ranger
+# messenger client (caprine ubuntu)
+# whatsapp client (whatsdesk? - ubuntu)
+# gnome tweaks (to hack around UI features)
+# kodi (todo automize with stream media plugin)
+# mattermost desktop
+# seahorse (ubuntu keychain client)
+# simplenote
+# spotify
+# birdtray (unbuntu)
+# 
