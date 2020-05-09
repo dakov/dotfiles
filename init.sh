@@ -27,11 +27,14 @@ chsh -s $(which zsh)
 
 # --- Secondary dependencies
 apt install terminator
-gsettings set org.gnome.desktop.default-applications.terminal exec 'terminator'
+# gsettings set org.gnome.desktop.default-applications.terminal exec 'terminator'
 
+# to save conf run dconf dump / > settings.ini
+dconf load / < dconf-settings.ini
 
 # --- Tertiary stuff
 touch ~/Templates/Empy\ Document
+
 
 # TODO: platform dependent (mostly), install manually for now
 # ranger
